@@ -1,1 +1,37 @@
-# Write your code here.
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
+
+
+
+def batch_badge_creator(attendees)
+  
+  attendees.map do |aaa|
+    "Hello, my name is #{aaa}."
+     
+end
+
+  
+end
+
+def assign_rooms(attendees)
+  attendees.each_with_index.map do |person, index|
+    "Hello, #{person}! You'll be assigned to room #{index+1}!"
+  end
+  
+ end
+
+def printer(attendees)
+  batch_badge_creator(attendees).each do |badge|
+    puts badge
+  end
+  
+  assign_rooms(attendees).each do |assignment|
+    puts assignment
+  end
+  
+# results.each_with_index.map do |, index|
+ #   "Hello, #{person}! You'll be assigned to room #{index+1}!"
+  
+  
+end
