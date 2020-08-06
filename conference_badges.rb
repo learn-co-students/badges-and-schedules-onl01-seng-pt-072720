@@ -30,8 +30,7 @@ def printer(attendees)
     puts assignment
   end
   
-# results.each_with_index.map do |, index|
- #   "Hello, #{person}! You'll be assigned to room #{index+1}!"
+
   
   
 end
